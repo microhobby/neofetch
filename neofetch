@@ -794,8 +794,8 @@ image_source="auto"
 #       popos, Porteus, PostMarketOS, Proxmox, Puppy, PureOS, Qubes, Radix,
 #       Raspbian, Reborn_OS, Redstar, Redcore, Redhat, Refracted_Devuan,
 #       Regata, Rosa, sabotage, Sabayon, Sailfish, SalentOS, Scientific,
-#       Septor, SereneLinux, SharkLinux, Siduction, Slackware, SliTaz,
-#       SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
+#       Seadog, Septor, SereneLinux, SharkLinux, Siduction, Slackware,
+#       SliTaz, SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
 #       openSUSE_Leap, openSUSE_Tumbleweed, openSUSE, SwagArch, Tails,
 #       Trisquel, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE, Ubuntu-Studio,
 #       Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, Zorin,
@@ -4927,8 +4927,8 @@ ASCII:
                                 Porteus, PostMarketOS, Proxmox, Puppy, PureOS, Qubes, Radix,
                                 Raspbian, Reborn_OS, Redstar, Redcore, Redhat, Refracted_Devuan,
                                 Regata, Rosa, sabotage, Sabayon, Sailfish, SalentOS, Scientific,
-                                Septor, SereneLinux, SharkLinux, Siduction, Slackware, SliTaz,
-                                SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
+                                Seadog, Septor, SereneLinux, SharkLinux, Siduction, Slackware,
+                                SliTaz, SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
                                 openSUSE_Leap, openSUSE_Tumbleweed, openSUSE, SwagArch, Tails,
                                 Trisquel, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE, Ubuntu-Studio,
                                 Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, Zorin,
@@ -9475,6 +9475,52 @@ M-       ,=;;;#:,      ,:#;;:=,       ,@
                ;/      #=
                 //    +;
                  '////'
+EOF
+        ;;
+
+"Seadog"*)
+            set_colors fg 3 4 8 5
+            read -rd '' ascii_data <<'EOF'
+${c1}                      ''.-:////:-.''
+                '-/syhdysso+//+osshdhyo/.'
+           '-+shhs+-.MMMMMMMM'MMMMMMMM.:oyhhs/-'
+      ':+ydhs+-'MMMMMMMMMM${c2}.hdds${c1}MMMMMMMMMM.-+yhhs/-'
+  '/ydhs/.'MMMMMMMMMMMMMMM${c2}.ddmh${c1}MMMMMMMMMMMMMMMM'-+yhdy:'
+ /ms.MMMMMMMMMMMMMMMMMMMMMM${c2}.dy'${c1}MMMMMMMMMMMMMMMMMMMMMM-hd-
+.M/MMMMMMMMMMMMMMMMMMMMMMM${c2}/dNNh-${c1}MMMMMMMMMMMMMMMMMMMMMMMyd'
+.M/MMMMMMMMMMMMMMMMMMM${c2}'-${c1}MMM${c2}'hy${c1}MMM${c2}'.${c1}MMMMMMMMMMMMMMMMMMMMym'
+ sm.MMMMMMMMMMMMMMMMMM${c2}.hm-${c1}M${c2}'hy${c1}MM${c2}:Ns'${c1}MMMMMMMMMMMMMMMMMM:N/
+ 'myMMMMMMMMMMMMMMMMMMM${c2}'Ns''hy${c1}M${c2}.dd${c1}MMMMMMMMMMMMMMMMMMMMmy
+  :M:MMMMMMMMMMMMMMMMMM${c2}'ohdNNdh/'${c1}MMMMMMMMMMMMMMMMMMMsm.
+   sd.MMMMMMMMMMMMMMMMMMMMM${c2}'+/${c1}MMMMMMMMMMMMMMMMMMMMMM:N/
+   'Ndyssssssssssssssssssyssssssyssssssssssssyo'  :smh
+    ${c2}hm........................................'   '-N+
+    ${c2}hN:::::::::::::::::::::::::::::::::::::::::::::/N+
+   ${c3}:MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm'
+   ${c3}sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-
+   ${c3}'dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs
+    ${c3}'/mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy-
+     ${c3}.mMMdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmNMN/
+    ${c4}'hMM+ ${c3}dMMdhmNMMMMMMMMMMMMMMMMMMMMMMMMNmhMMM${c4}..MMN.[0m
+    ${c4}/NMd'${c2}S${c4}hMM/${c2}SS${c3}-/+sssyhmmmmmmmdhysys+:.${c4}  'MMN' oMMs
+    ${c4}+MMy${c2}SS${c4}sMMo${c2}SSS${c4}.mMm'${c2}SSSSSSSSSSSSSS${c4}yMM-${c2}SSS${c4}-MMh'${c2}S${c4}/MMd
+    ${c4}yMM:${c2}SS${c4}-MMm${c2}SSS${c4}'/++${c2}SSSSSSSSSSSSSSS${c4}:++'${c2}SSS${c4}yMMo${c2}SS${c4}.mMm.
+    ${c4}MMM.${c2}SS${c4}'hMM+${c2}SSSSSSSSSSSSSSSSSSSSSSSSSSS${c4}-NMN.${c2}SSS${c4}dMN:
+   ${c4}'MMm'${c2}SSS${c4}-NMm-${c2}SSSSSSSSSSSSSSSSSSSSSSSSS${c4}'hMM+${c2}SSSS${c4}yMM+
+   ${c4}+MMs${c2}SSSSS${c4}+MMd'${c2}SSSSSSSSSSSSSSSSSSSSSSSSs${c4}MMy'${c2}SSSS${c4}:MMy
+   ${c4}yMM+${c2}SSSSSS${c4}oMMy'${c2}SSSSSSS${c4}'-----${c2}.SSSSSSSS${c4}+MMd${c2}SSSSSS${c4}.MMM
+  ${c4}-NMN'${c2}SSSSSS${c4}hMMo${c2}SSSSS${c4}.hNMMMMMNd/${c2}SSSSS${c4}:NMm-${c2}SSSSSSS${c4}yMM+
+  ${c4}yMMo${c2}SSSSSSSS${c4}.dMN/${c2}SSS${c4}.mMNo:--/mMM/${c2}SSS${c4}.NMN:${c2}SSSSSSSS${c4}:NMd.
+ ${c4}/NMd'${c2}SSSSSSSSS${c4}-MMN${c2}SSS${c4}-MMN.SSS'yMMs${c2}SSS${c4}yMMo${c2}SSSSSSSSSS${c4}sMMs
+${c4}'dMM-${c2}SSSSSSSSSS${c4}.MMM${c2}SSS${c4}+NMMhohNMMh${c2}SSSS${c4}yMM+${c2}SSSSSSSSSS${c4}.dMN:
+${c4}:MMd${c2}SSSSSSSSSSS${c4}'hMM/${c2}SSSS${c4}.+hMMMmo-${c2}SSSS${c4}-mMN.${c2}SSSSSSSSSSS${c4}oMMs
+${c4}+MMo${c2}SSSSSSSSSSSS${c4}.dMMh/--:+dMMMNo:--:sNMN/${c2}SSSSSSSSSSSS${c4}-MMy'
+${c4}/MMs${c2}SSSSSSSSSSSSS${c4}'oMMMMMMMMh+yNMMMMMMMd.${c2}SSSSSSSSSSSSS${c4}:MMy
+${c4}.mMM:${c2}SSSSSSSSSSSS${c4}.dMMs///-'    .://+NMM-${c2}SSSSSSSSSSSS${c4}.dMN/
+ ${c4}-mMNs.${c2}SSSSSSSS${c4}'/mMMs               :NMNo'${c2}SSSSSSSS${c4}'/mMNo
+  ${c4}.sNMNho/--:+ymMMd:                 .yMMNho:--:+ymMMh-
+    ${c4}.+hNMMMMMMNds-                     .+hNMMMMMMNdo-
+        ${c4}'.-:-.'                           ''.::-''
 EOF
         ;;
 
